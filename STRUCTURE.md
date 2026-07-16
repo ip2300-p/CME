@@ -1,20 +1,25 @@
-📁 CME/
-├── 📄 README.md # توضیحات کلی
-├── 📄 Pathway.md # نقشه راه سطح بالا (مسیر کلی و ارتباط فازها)
-├── 📁 phases/ # مستندات تفصیلی هر فاز اجرایی
-│ ├── 📄 phase-00-onboarding.md # فاز ۰: مستندسازی و استانداردسازی فرمت‌ها
-│ ├── 📄 phase-05-migration.md # فاز ۰.۵: استراتژی مهاجرت داده
-│ ├── 📄 phase-01-database-core.md# فاز ۱: طراحی دیتابیس و هسته منطقی
-│ ├── 📄 phase-02-ui-pwa.md # فاز ۲: توسعه رابط کاربری PWA
-│ ├── 📄 phase-03-automation.md # فاز ۳: اتوماسیون دفتر فنی
-│ └── 📄 phase-04-ai-rag.md # فاز ۴: پیاده‌سازی دستیار هوش مصنوعی
-├── 📁 docs/ # مستندات فنی و خروجی‌های هر فاز
-│ ├── 📄 data-dictionary.md # دیکشنری داده (خروجی فاز ۰)
-│ ├── 📄 workflow-diagram.md # فلوچارت گردش کار (خروجی فاز ۰)
-│ ├── 📄 roles-access.md # جدول نقش‌ها و دسترسی‌ها (خروجی فاز ۰)
-│ └── 📄 audit-policy.md # سیاست ردیابی تغییرات مالی
-├── 📁 approved-samples/ # نمونه‌های تأییدشده داده (خروجی فاز ۰)
-└── 📁 src/ # کد منبع (پس از شروع فاز ۱)
-├── 📁 backend/ # FastAPI + PostgreSQL
-├── 📁 frontend/ # React + PWA
-└── 📁 ai/ # ماژول RAG و پردازش زبان طبیعی
+# ساختار مخزن CME
+
+```text
+CME/
+├── README.md
+├── Pathway.md
+├── STRUCTURE.md
+├── phases/
+│   ├── phase-00-onboarding.md
+│   ├── phase-05-migration.md
+│   ├── phase-01-database-core.md
+│   ├── phase-02-ui-pwa.md
+│   ├── phase-03-automation.md
+│   └── phase-04-ai-rag.md
+├── docs/
+│   ├── data-dictionary.md
+│   ├── workflow-diagram.md
+│   ├── roles-access.md
+│   └── audit-policy.md
+├── approved-samples/
+└── src/
+    ├── backend/
+    ├── frontend/
+    └── ai/
+```
